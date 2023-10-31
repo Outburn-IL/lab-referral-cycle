@@ -1,0 +1,17 @@
+Profile: JCPMCondPregnancyDiagnosesSZMC
+Parent: JCPMCondPregnancyDiagnoses
+Id: jcpm-cond-pregnancy-diags-szmc
+Title: "JCPM Condition Pregnancy Diags - SZMC profile"
+Description: "Pregnancy conditions / problems / diagnoses"
+* ^language = #he-IL
+* ^url = "http://fhir.outburn.co.il/StructureDefinition/jcpm-cond-pregnancy-diags-szmc"
+* ^status = #draft
+* ^date = "2022-01-30"
+* ^publisher = "Outburn LTD."
+* ^contact.name = "Outburn LTD"
+* ^contact.telecom.system = #url
+* ^contact.telecom.value = "http://outburn.co.il"
+* extension[cond-rel].valueReference
+  * type = "Condition" (exactly)
+  * identifier.system = "$szmc-preg-id" (exactly)
+  * display = "הריון" (exactly)
