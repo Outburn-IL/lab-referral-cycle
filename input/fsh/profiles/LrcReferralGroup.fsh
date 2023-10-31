@@ -12,10 +12,6 @@ Description: """הפניה מרכזת. להפניה הזו אין קוד בדי�
 * basedOn 1..
 * basedOn only Reference(ILCoreServiceRequest)
 * intent = #order (exactly)
-* category ^slicing.discriminator[0].type = #pattern
-  * ^slicing.discriminator[=].path = "coding"
-  * ^slicing.rules = #open
-  * ^slicing.description = "Slice for SNOMED category codes"
 * category contains snomed-lab 1..1
 * category[snomed-lab]
   * coding ^slicing.discriminator[0].type = #value

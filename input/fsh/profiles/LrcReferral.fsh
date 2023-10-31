@@ -10,10 +10,7 @@ Description: """הפניה לבדיקת מעבדה, או לפאנל (סוללה)
   * system 1..
   * value 1..
 * intent = #order (exactly)
-* category ^slicing.discriminator[0].type = #pattern
-  * ^slicing.discriminator[=].path = "coding"
-  * ^slicing.rules = #open
-  * ^slicing.description = "Slice for SNOMED category codes"
+
 * category contains snomed-lab 1..1
 * category[snomed-lab]
   * coding ^slicing.discriminator[0].type = #value
