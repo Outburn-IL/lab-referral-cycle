@@ -1,13 +1,17 @@
 canonical: http://oncology.fhir.outburn.co.il
 fhirVersion: 4.0.1
-FSHOnly: true
 applyExtensionMetadataToRoot: false
 id: lab-referral-cycle
 name: LabReferralCycle
 status: draft
+copyrightYear: 2023
+releaseLabel: release
 version: 0.1.0
 dependencies:
   il.core.fhir.r4:
     version: 0.12.0-snapshots
     uri: http://fhir.org/packages/il.core.fhir.r4/ImplementationGuide/il.core.fhir.r4
     id: il_core_fhir_r4
+menu:
+   Table of Contents: toc.html
+   Home: index.html

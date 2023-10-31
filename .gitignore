@@ -1,1 +1,6 @@
 *.DS_Store
+input-cache
+temp
+template
+output
+fsh-generated
